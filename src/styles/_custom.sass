@@ -1,106 +1,339 @@
 @use 'variables' as *
 .banner-principal-decorativo
   &-1
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
-  &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
-
-
+    top: 10%
+    left: -30%
+    width: 30%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    left: -55%
+    width: 30%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 42% 
+  @media only screen and (min-width: 1024px)
+    margin-left: -40px
+  @media only screen and (max-width: 1023px)
+    width: 100%
+
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
-    width: 33%;
-    
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
+  width: 30%
+  //margin-bottom: 5% !important
 
-.boton *, .boton--sm *,
-.barra-avance__boton--regresar span
-  color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
-.banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
-figcaption 
-    font-weight: normal !important
+  color: white !important   
+.titulo-principal.color-acento-contenido .titulo-principal__numero 
+  background-color: #0D2330
 
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+figcaption
+  font-weight: normal
 
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 10% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+      margin-bottom: 10% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
 
-/**************************************************************/
-/***CUSTOM STYLES***/
-/**************************************************************/
-.p-full-width
-  padding: 3rem 3.5rem!important;
-.bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
-.bg-color
-  &-1
-    background-color: $color-primario
+.barra-avance__boton--regresar span 
+  color: $color-sistema-texto !important
 
+.banner-interno__titulo__icono i 
+    color: black
 
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #E88A38 !important
 
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #E88A38
+  background-color: #F6D0AF
 
-
-
-
-/**************************************************************/
-/*Media Queries*/  
-/**************************************************************/
-
-//// DESKTOP SMALL 1400--------------------------------------
-@media screen and (max-width: $bp-min-xxl)
-  .mb-cus
-    margin-bottom: 2em  !important 
-
-//// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-    width: 90% !important
-
+.cen
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  justify-content: center
   
- 
-  
-//// TABLET MINI 768--------------------------------------
-@media screen and (max-width: $bp-min-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
 
-  
 
-//// MOBILE 576--------------------------------------
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus
-    margin-bottom: 2em  !important
+.bloque-texto-g.color-secundario
+  .bloque-texto-g__texto
+    position: relative
+    width: 100%
+  @media (min-width: 1024px)
+    border-radius: 83px 0 0 0
+    .bloque-texto-g__texto
+      width: 63%
+      border-radius: 63px 20px 20px 20px
 
-  
- 
+.bloque-texto-g.color-terciario
+  background-color: #FFE7C1
+  @media (min-width: 1024px)
+    border-radius: 0 83px 0 0 
+    .bloque-texto-g__texto
+      width: 63%
+      border-radius: 20px 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg1
+  background-color: #0D2330
+  border-radius: 20px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cajon.color-acento-b
+  background-color: #EDF7FB
+  &:before 
+    background-color: #55AFD4
+
+.cajon.color-acento-contenido
+  background-color: #FBE8D7
+  &:before 
+    background-color: #E88A38
+
+
+
+
+
+
+
+
+
+
+
+
+.tit-doble--azul
+  --ico: 3.5rem
+  --linea: 6px
+  position: relative
+  display: flex
+  align-items: center
+  gap: 0.9rem
+  width: fit-content
+  max-width: 100%
+  padding: 0 2.5rem 0.7rem 0
+  .tit-doble__ico
+    flex: 0 0 auto
+    width: var(--ico)
+    height: auto
+  h3
+    margin: 0
+    padding-bottom: 0.6rem
+  &::after
+    content: ''
+    position: absolute
+    left: 0
+    right: 0
+    bottom: 0
+    height: var(--linea)
+    background-color: #55AFD4
+  &::before
+    content: ''
+    position: absolute
+    left: var(--ico)
+    right: 0
+    bottom: calc(var(--linea) + 5px)
+    height: 3px
+    background: repeating-linear-gradient(90deg, #A1B0B9 0 6px, transparent 6px 10px)
+
+.color-acento-botones
+  .tabs-a__tab
+    padding: 12px 13px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.4
+    min-height: 40px 
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 30%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 70%
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #55AFD4
+  color: black //para hover deja texto como se pide en activo
+.color-a
+  background-color: #FFF2C7
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FFD548 !important
+  color: black !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color:  #FFD548 !important
+
+.tarjeta.color-b
+  background-color: #F6D0AF
+
+.fon
+  padding: 1.2rem
+  @media (min-width: 768px)
+    padding: 2.2rem
+  @media (min-width: 1024px)
+    padding: 2.7rem
+.fd1
+  background: url('../assets/curso/tema1/fd1.png') center / 100% 100% no-repeat
+  margin-inline: -2rem
+  @media (min-width: 768px)
+    margin-inline: -3rem
+  @media (min-width: 993px)
+    margin-inline: -3.4rem
+
+.tarjetaf
+  background: url('../assets/curso/tema1/fd2.png') center / cover no-repeat
+  border-radius: 20px
+  overflow: hidden
+  transition: transform 0.3s ease
+  // h4, p
+    color: white
+.slyder-a
+  &__bullets__item
+    background-color: #FFF7EA
+    border-color: #FFF7EA
+    &--active
+      background-color: #55AFD4 !important
+      border-color: #55AFD4!important
+  &__btn--sigt,
+  &__btn--atrs
+    background-color: #FFD548
+  @media (max-width: 768px)
+    &__bullets__item
+      width: 12px
+      height: 12px
+      margin: 0 1px
+    &__btn--sigt,
+    &__btn--atrs
+      width: 45px
+      height: 45px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////TABLAS////////////////////////////////////
+
+.tabla-a
+  --min: 500px
+  container-type: inline-size
+  overflow-x: auto
+  table
+    width: 100%
+    min-width: var(--min)
+    table-layout: auto
+  thead
+    border-top: 6px solid #163B50
+    color: black
+    background-color: #A1B0B9
+  th, td
+    overflow-wrap: normal
+    word-break: normal
+    hyphens: none
+    white-space: normal
+    vertical-align: top
+    text-align: left
+  th
+    padding: 16px 12px
+    border-color: #A1B0B9
+  td
+    padding: 15px 12px
+  tbody td:first-child
+    font-weight: bold
+  &.tab2
+    th:nth-child(1)
+      width: 25%
+    th:nth-child(2)
+      width: 25%
+    th:nth-child(3)
+      width: 25%
+    th:nth-child(4)
+      width: 25%
+    td
+      padding: 19.5px 12px

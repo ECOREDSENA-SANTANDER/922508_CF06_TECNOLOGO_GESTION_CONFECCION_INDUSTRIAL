@@ -11,7 +11,6 @@
 
 <script>
 import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
-
 export default {
   name: 'ActividadDidactica',
   components: {
@@ -19,10 +18,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Costeo de la producción de prendas',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar la identificación, clasificación y proyección de los costos de fabricación según recursos y capacidad operativa.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,61 +29,67 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuáles son los tres elementos básicos del costo de producción de prendas?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Materiales directos, mano de obra directa y costos indirectos de fabricación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Materiales indirectos, publicidad comercial y margen esperado de utilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Mano de obra administrativa, impuestos de venta y gastos financieros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Costos de distribución, promoción comercial y financiación de inventarios.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Cuál de los siguientes conceptos corresponde normalmente a un gasto comercial?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Depreciación de maquinaria empleada en el ensamble de prendas.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Publicidad destinada a promover la venta de productos terminados.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Energía requerida para el funcionamiento de máquinas industriales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
-        },
-        {
-          id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'Supervisión compartida de operaciones dentro de la planta.',
               esCorrecta: false,
             },
           ],
@@ -93,30 +98,32 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué elementos conforman el costo primo de una prenda?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto:
+                'Costos indirectos de fabricación y gastos de administración general.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Materiales directos y costos indirectos de mantenimiento fabril.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto:
+                'Materiales directos y mano de obra directa identificable.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Mano de obra indirecta y costos financieros del periodo.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -124,30 +131,33 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Cómo se obtiene el costo de conversión en la confección?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto:
+                'Sumando materiales directos y gastos generales de comercialización.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'Sumando precio de venta e impuestos asociados al producto.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto:
+                'Sumando compras de materiales y descuentos comerciales obtenidos.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto:
+                'Sumando mano de obra directa y costos indirectos fabriles.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -155,30 +165,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Cuál es el costo de tejido por prenda si se consumen 1,5 metros a $20.000 por metro?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                '$30.000 por prenda, mediante la multiplicación del consumo y precio.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                '$20.000 por prenda, tomando solamente el precio de compra.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto:
+                '$21.500 por prenda, sumando incorrectamente 1.500 al precio unitario.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                '$40.000 por prenda, duplicando automáticamente el precio unitario.',
               esCorrecta: false,
             },
           ],
@@ -188,28 +201,31 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué debe comprobarse antes de agregar una tolerancia de pérdida normal al consumo?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Que la empresa aumente todos los consumos por igual.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Que la pérdida no esté incorporada en el estándar aprobado.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto:
+                'Que el costo comercial permita recuperar cualquier desperdicio.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto:
+                'Que las tallas menores tengan idénticos consumos de material.',
               esCorrecta: false,
             },
           ],
@@ -219,28 +235,32 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué tratamiento reciben los descuentos comerciales en el costo de adquisición?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto:
+                'Incrementan el costo por considerarse parte del transporte de entrada.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto:
+                'Se registran siempre como costos indirectos de fabricación.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Se descuentan del valor de compra reconocido del material.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto:
+                'Se suman al precio unitario antes de calcular el consumo.',
               esCorrecta: false,
             },
           ],
@@ -250,29 +270,31 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué criterio determina si una actividad corresponde a mano de obra directa?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'El nombre del cargo establecido en el organigrama general.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'La antigüedad laboral registrada por cada persona operaria.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'La categoría contractual definida por recursos humanos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'La trazabilidad del trabajo hacia la orden o referencia.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -281,19 +303,32 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es el costo directo por prenda para 18 minutos a $250 por minuto?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                '$4.500 por prenda, multiplicando el tiempo por la tarifa.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: '$4.250 por prenda, descontando un minuto por operación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                '$4.750 por prenda, añadiendo un minuto sin justificación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                '$5.000 por prenda, redondeando la tarifa antes del cálculo.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -302,18 +337,32 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué expresa el SAM utilizado como base para costear operaciones?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'El precio comercial final calculado para cada prenda terminada.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'El contenido estándar de trabajo medido en minutos por unidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'El gasto financiero correspondiente a la fabricación del lote.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El costo total de los insumos incorporados a la referencia.',
               esCorrecta: false,
             },
           ],
@@ -323,19 +372,33 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál de estas partidas suele clasificarse como costo indirecto de fabricación?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'La tela identificada y consumida directamente por una orden.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'El cierre cuantificado para cada unidad de una referencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La depreciación de maquinaria utilizada por distintas órdenes.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'La comisión obtenida por vender las prendas ya terminadas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -344,19 +407,33 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué base resulta pertinente para distribuir el costo de mantenimiento entre centros?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'El número total de prendas vendidas en todas las tiendas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'La cantidad de campañas publicitarias realizadas por la marca.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El porcentaje de utilidad previsto por el área comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Las horas de servicio registradas para cada centro atendido.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -365,18 +442,30 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué comportamiento presenta un costo variable proporcional cuando aumenta la producción?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Aumenta su valor total y conserva su costo unitario estable.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Conserva su valor total y reduce su costo unitario.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Disminuye su valor total y mantiene su costo unitario.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Incrementa únicamente su componente fijo por cada unidad.',
               esCorrecta: false,
             },
           ],
@@ -386,19 +475,32 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué ocurre con el costo fijo por unidad si aumenta la producción dentro del rango relevante?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Permanece invariable aunque aumente la cantidad de prendas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Disminuye al distribuirse el costo fijo entre más unidades.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Aumenta proporcionalmente al crecimiento del volumen total.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Se convierte en costo directo de cada materia prima.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -407,100 +509,210 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cómo se clasifica un servicio con cargo básico y cobro adicional según consumo?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Costo estrictamente fijo durante cualquier nivel de operación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Costo directo por existir una factura del servicio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Costo mixto por combinar componentes fijo y variable.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Costo escalonado sin relación con unidades de actividad.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+        {
+          id: 16,
+          texto:
+            '¿Cuál es la finalidad principal de establecer centros de costo en confección?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Definir el precio comercial de todas las referencias fabricadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Reemplazar las órdenes por registros generales de ventas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar las bases de distribución de los costos compartidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Acumular recursos por áreas y facilitar su asignación posterior.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué centro se considera productivo al transformar directamente componentes de una prenda?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'El centro de ensamble donde se ejecutan operaciones de confección.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'El departamento comercial encargado de negociar los productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El área administrativa destinada a la gestión general.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La unidad financiera responsable del crédito empresarial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cómo se calcula la carga estándar de trabajo de una orden de producción?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Dividiendo los materiales directos entre el número de operarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Multiplicando el SAM unitario por las prendas programadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sumando los costos comerciales y el margen de utilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Dividiendo la capacidad normal entre el precio unitario.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué capacidad sirve de referencia para asignar los costos indirectos fijos de producción?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La capacidad máxima teórica sin considerar interrupciones normales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La capacidad ociosa resultante de una caída extraordinaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La capacidad normal prevista bajo condiciones ordinarias.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La capacidad comercial estimada por el equipo de ventas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cómo se determina el costo estimado unitario de una orden de producción?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Dividiendo solamente los materiales comprados por la producción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Sumando el precio comercial previsto y los gastos de venta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Multiplicando el margen esperado por los minutos disponibles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Dividiendo el costo estimado total entre las unidades conformes.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado: 'Ha superado la actividad.',
       mensaje_final_reprobado:
         'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
     },
   }),
 }
