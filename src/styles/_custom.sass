@@ -133,17 +133,59 @@ figcaption
   background-color: #0D2330
   border-radius: 20px
 
+.bg2,
+.bg22
+  background-color: #BBDFEE
+  @media (min-width: 992px)
+    border-radius: 0 83px 0 0 
+    min-height: var(--alto, 310.65px)
+.bg22
+  --alto: 513.85px
 
 
 
 
 
+.bg3
+  background: url('../assets/curso/tema1/fd4.png') center / cover no-repeat
+  border-radius: 20px
+  overflow: hidden
+  transition: transform 0.3s ease
+.slyder__btn
+  background-color: #0D2330
+  color: #FFD548
+.slib
+  @media (min-width: 992px) 
+    .col-lg-8 
+      flex: 0 0 auto
+      width: 70%
+    .col-lg-4
+      flex: 0 0 auto
+      width: 30%
 
+.bg4
+  background-color: #FFF2C7!important
+  border-radius: 20px
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease
+  &:hover
+    background-color: #FBF7CD !important
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
 
-
-
-
-
+.bg5
+  background-color: #BBDFEE
+  border-radius: 18px 0 0 18px
+.bg6
+  background-color: #0D2330
+  border-radius: 0px
+.bg7
+  background-color: #BBDFEE
+  border-radius: 0 18px 18px 0
+@media (max-width: 991px)
+  .bg5,
+  .bg6,
+  .bg7
+    border-radius: 18px
 
 
 
@@ -232,19 +274,33 @@ figcaption
 .tarjeta.color-b
   background-color: #F6D0AF
 
+.tarjeta.color-c
+  background-color: #BBDFEE
+  .p-4 
+    padding: 1.4rem !important
+
 .fon
   padding: 1.2rem
   @media (min-width: 768px)
     padding: 2.2rem
   @media (min-width: 1024px)
     padding: 2.7rem
-.fd1
+.fd1,
+.fd3
   background: url('../assets/curso/tema1/fd1.png') center / 100% 100% no-repeat
   margin-inline: -2rem
   @media (min-width: 768px)
     margin-inline: -3rem
   @media (min-width: 993px)
     margin-inline: -3.4rem
+.fd3
+  background: url('../assets/curso/tema1/fd3.png') center / 100% 100% no-repeat
+
+.tarjet
+  background: url('../assets/curso/tema2/fd5.png') center / cover no-repeat
+  border-radius: 20px
+  overflow: hidden
+  transition: transform 0.3s ease
 
 .tarjetaf
   background: url('../assets/curso/tema1/fd2.png') center / cover no-repeat
@@ -273,17 +329,55 @@ figcaption
       width: 45px
       height: 45px
 
+.img-infografica.color-primario,
+.img-infografica-b.color-primario
+  .img-infografica__item__dot,
+  .img-infografica-b__item__dot
+    &:before,
+    &:after
+      background-color: #F2F1C1
+      opacity: 0.01
+.img-infografica.color-primario,
+.img-infografica-b.color-primario
+  .img-infografica__item__numero
+    color: black !important
+.tarjeta.color-acento-contenido
+  background-color: #0D2330
 
+.b2
+  background-color: #FFE7C1
+.slyder-f__btn i
+  font-size: 4rem
+  color: #FFD548
+.caja-img
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 120px
+  img
+    width: auto
+    max-width: 100%
+    max-height: 100%
 
-
-
-
-
-
-
-
-
-
+.acordion__accion__btn--a
+  background-color: #FFD548
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azull
+  background-color: #513013
+  h3
+    color: white
+.acordion__accion__btn--a i, .acordion__accion__btn--b i .activ
+  color: black
+.acordion.activ .acordion__activo .acordion__accion__btn--a
+  background-color: #FFD548
+  i
+    color: black !important
+.activ
+  .acordion__activo 
+    background-color: #55AFD4 !important
+    transition: all 0.3s ease-out
+    h3
+      color: black 
 
 
 
@@ -337,3 +431,28 @@ figcaption
       width: 25%
     td
       padding: 19.5px 12px
+  &.tab3
+    th:nth-child(1)
+      width: 34%
+    th:nth-child(2)
+      width: 33%
+    th:nth-child(3)
+      width: 33%
+    td
+      padding: 16px 12px
+  &.tab5
+    th:nth-child(1)
+      width: 16%
+    th:nth-child(2)
+      width: 42%
+    th:nth-child(3)
+      width: 42%
+
+.tabla-a
+  &.tab2,
+  &.tab3,
+  &.tab6,
+  &.tab7
+    th:not(:first-child),
+    td:not(:first-child)
+      text-align: center

@@ -413,34 +413,309 @@
     
     p.mb-5 No todo el tiempo pagado se convierte automáticamente en mano de obra directa. Durante una jornada pueden presentarse preparación, espera, capacitación, mantenimiento, interrupciones, reprocesos o inactividad. Cada condición requiere una clasificación definida para evitar que el costo de una orden absorba tiempos que no le corresponden.
 
+    .tit-doble--azul.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
+      h3.mb-0 Tratamiento básico de los tiempos relacionados con la producción
 
+    .row.fd3.fon.mb-5(data-aos="fade-down")
+      .col-lg-12
+        SlyderF(columnas="col-md-6 col-xl-4")
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/19.svg' alt='')
+            .tarjeta.color-c
+              .p-4
+                h4.text-center.mt-3 Tiempo aplicado a la operación
+                p.mb-0 #[b Tratamiento posible]
+                p.mb-4 Puede reconocerse como mano de obra directa.
+                p.mb-0 #[b Verificación requerida]
+                p.mb-0 Debe corresponder con la referencia, operación y periodo registrados.
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/20.svg' alt='')
+            .tarjeta.color-c
+              .p-4
+                h4.text-center.mt-3 Preparación específica de la orden
+                p.mb-0 #[b Tratamiento posible]
+                p.mb-4 Puede atribuirse directamente o distribuirse entre las unidades del lote.
+                p.mb-0 #[b Verificación requerida] 
+                p.mb-0 Debe identificarse la orden que originó el alistamiento.
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/21.svg' alt='')
+            .tarjeta.color-c
+              .p-4
+                h4.text-center.mt-3 Supervisión compartida
+                p.mb-0 #[b Tratamiento posible]
+                p.mb-4 Se reconoce generalmente como mano de obra indirecta.
+                p.mb-0 #[b Verificación requerida]
+                p.mb-0 Debe establecerse una base de distribución entre los procesos beneficiados.
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/22.svg' alt='')
+            .tarjeta.color-c
+              .p-4
+                h4.text-center.mt-3 Espera normal del proceso
+                p.mb-0 #[b Tratamiento posible] 
+                p.mb-4 Puede formar parte del costo de conversión según la política aplicada.
+                p.mb-0 #[b Verificación requerida]
+                p.mb-0 Debe diferenciarse de una interrupción anormal o evitable.
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/23.svg' alt='')
+            .tarjeta.color-c
+              .p-4
+                h4.text-center.mt-3 Reproceso normal autorizado
+                p.mb-0 #[b Tratamiento posible]
+                p.mb-4 Requiere trazabilidad y tratamiento consistente.
+                p.mb-0 #[b Verificación requerida] 
+                p.mb-0 Debe existir evidencia de su relación con el proceso ordinario.
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/24.svg' alt='')
+            .tarjeta.color-c
+              .p-4
+                h4.text-center.mt-3 Pérdida anormal de tiempo
+                p.mb-0 #[b Tratamiento posible]
+                p.mb-4 No debe incrementar el costo de las unidades conformes.
+                p.mb-0 #[b Verificación requerida] 
+                p.mb-0 Debe reconocerse separadamente e investigarse su causa.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    p.mb-0 La utilización de tiempos reales permite conocer el consumo efectivo de mano de obra, mientras que los tiempos estándar proporcionan una referencia para presupuestar y evaluar desviaciones. Ambos valores responden a finalidades diferentes. Sustituir el estándar por el tiempo real sin identificar el propósito del cálculo puede trasladar ineficiencias, esperas o errores a la estimación del costo unitario.
 
 
     separador 
     #t_1_3.titulo-segundo.mb-5
       h2 1.3 Costos indirectos de fabricación
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5.mb-lg-0.mb-0.d-none.d-lg-block.pe-lg-0(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/25.png')
+      .col-lg-7.ps-lg-0(data-aos="fade-left")
+        .bg2.mb-0.p-4.cen
+          p.mb-4.mx-lg-2 Los costos indirectos de fabricación, identificados también mediante la sigla CIF, reúnen los recursos necesarios para operar la planta que no pueden asignarse directamente a una prenda, referencia u orden de manera práctica y económicamente justificable. Aunque no se observen como un componente físico predominante, permiten que la transformación se desarrolle en condiciones operativas.
+          p.mb-0.mx-lg-2 Su reconocimiento exige comprobar que guardan relación con la producción. Incorporar partidas comerciales o administrativas sin vínculo con la transformación distorsiona el costo fabril y dificulta comparar las órdenes.
+    
+    p.mb-5 La NIC 2 incluye dentro de los costos de conversión una asignación sistemática de los costos indirectos fijos y variables incurridos para transformar los materiales en productos terminados. Los costos indirectos fijos permanecen relativamente constantes frente a cambios del volumen dentro de determinado intervalo, mientras que los variables cambian de manera directa o cercana con el nivel de actividad (IFRS Foundation, 2025).
+
     .tit-doble--azul.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
-      h3.mb-0 
+      h3.mb-0 Costos indirectos asociados con la fabricación de prendas
 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-12
+        ImagenInfografica.color-primario.text-white
+          template(v-slot:imagen)
+            img(src='@/assets/curso/tema1/26.jpg')
+          .tarjeta.color-acento-contenido.p-4(x="9%" y="49%" numero="01")
+            p.mb-3 #[b Mano de obra indirecta]
+            p.mb-0 #[b Ejemplos]
+            p.mb-4 Incluye supervisión, mantenimiento, apoyo técnico y abastecimiento interno.
+            p.mb-0 #[b Relación con la producción]
+            p.mb-0 Respalda distintas órdenes o procesos sin identificación unitaria directa. 
+          .tarjeta.color-acento-contenido.p-4(x="35.5%" y="68.5%" numero="02")
+            p.mb-3 #[b Materiales indirectos]
+            p.mb-0 #[b Ejemplos]
+            p.mb-4 Incluye lubricantes, suministros técnicos y consumibles de uso compartido.
+            p.mb-0 #[b Relación con la producción]
+            p.mb-0 Permite operar o conservar los equipos y las condiciones de fabricación.
+          .tarjeta.color-acento-contenido.p-4(x="63.6%" y="11.5%" numero="03")
+            p.mb-3 #[b Uso de instalaciones]
+            p.mb-0 #[b Ejemplos]
+            p.mb-4 Incluye arrendamiento, depreciación y mantenimiento del área productiva.
+            p.mb-0 #[b Relación con la producción]
+            p.mb-0 Proporciona el espacio y la infraestructura necesarios para producir.
+          .tarjeta.color-acento-contenido.p-4(x="72.5%" y="35.3%" numero="04")
+            p.mb-3 #[b Operación de maquinaria]
+            p.mb-0 #[b Ejemplos]
+            p.mb-4 Incluye energía, depreciación, mantenimiento y repuestos de uso general.
+            p.mb-0 #[b Relación con la producción]
+            p.mb-0 Mantiene la disponibilidad técnica de los equipos empleados en la transformación.
+          .tarjeta.color-acento-contenido.p-4(x="18.5%" y="10%" numero="05")
+            p.mb-3 #[b Servicios de fábrica]
+            p.mb-0 #[b Ejemplos]
+            p.mb-4 Incluye iluminación productiva, ventilación, limpieza técnica y servicios compartidos.
+            p.mb-0 #[b Relación con la producción]
+            p.mb-0 Sostiene las condiciones necesarias para ejecutar las operaciones.
+          .tarjeta.color-acento-contenido.p-4(x="72.5%" y="78.5%" numero="06")
+            p.mb-3 #[b Control y apoyo fabril]
+            p.mb-0 #[b Ejemplos]
+            p.mb-4 Incluye supervisión de planta y actividades de soporte productivo.
+            p.mb-0 #[b Relación con la producción]
+            p.mb-0 Facilita la coordinación y continuidad de los procesos de fabricación.
+
+    .tit-doble--azul.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
+      h3.mb-0 Partidas que no deben confundirse con los CIF
+
+    p.mb-5 No todas las erogaciones de la organización forman parte de los costos indirectos de fabricación. Asimismo, las ineficiencias extraordinarias no deben distribuirse entre las unidades terminadas como si correspondieran al funcionamiento ordinario.
+
+    .tit-doble--azul.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
+      h3.mb-0 Diferenciación entre CIF y partidas ajenas al costo de fabricación
+
+    .row.fd3.fon.mb-5(data-aos="fade-down")
+      .col-lg-12
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-4
+            img(src='@/assets/curso/tema1/27.png')
+          .col-lg-8
+            SlyderF(columnas="col-md-6 col-xl-4")
+              .tarjeta.tarjeta--slyder.b2.p-4.p-lg-3.text-center
+                .caja-img.mb-0
+                  img(src='@/assets/curso/tema1/28.svg')
+                h4.mb-3 Mantenimiento de maquinaria productiva
+                p.mb-0 #[b Tratamiento general]
+                p.mb-3 Puede incluirse en los CIF.
+                p.mb-0 #[b Justificación]
+                p.mb-0 Conserva los equipos empleados en la transformación.
+              .tarjeta.tarjeta--slyder.b2.p-4.p-lg-3.text-center
+                .caja-img.mb-0
+                  img(src='@/assets/curso/tema1/29.svg')
+                h4.mb-3 Supervisión del área de confección
+                p.mb-0 #[b Tratamiento general]
+                p.mb-3 Puede incluirse en los CIF.
+                p.mb-0 #[b Justificación]
+                p.mb-0 Apoya varias órdenes y operaciones productivas.
+              .tarjeta.tarjeta--slyder.b2.p-4.p-lg-3.text-center
+                .caja-img.mb-0
+                  img(src='@/assets/curso/tema1/30.svg')
+                h4.mb-3 Energía de la planta
+                p.mb-0 #[b Tratamiento general]
+                p.mb-3 Puede incluirse en los CIF.
+                p.mb-0 #[b Justificación]
+                p.mb-0 Permite el funcionamiento de maquinaria e instalaciones fabriles.
+              .tarjeta.tarjeta--slyder.b2.p-4.p-lg-3.text-center
+                .caja-img.mb-0
+                  img(src='@/assets/curso/tema1/31.svg')
+                h4.mb-3 Publicidad del producto
+                p.mb-0 #[b Tratamiento general]
+                p.mb-3 No se incluye como CIF.
+                p.mb-0 #[b Justificación]
+                p.mb-0 Corresponde a una actividad comercial posterior a la fabricación.
+              .tarjeta.tarjeta--slyder.b2.p-4.p-lg-3.text-center
+                .caja-img.mb-0
+                  img(src='@/assets/curso/tema1/32.svg')
+                h4.mb-3 Comisión de ventas
+                p.mb-0 #[b Tratamiento general]
+                p.mb-3 No se incluye como CIF.
+                p.mb-0 #[b Justificación]
+                p.mb-0 Se origina en la comercialización del producto.
+              .tarjeta.tarjeta--slyder.b2.p-4.p-lg-3.text-center
+                .caja-img.mb-0
+                  img(src='@/assets/curso/tema1/33.svg')
+                h4.mb-3 Administración general no fabril
+                p.mb-0 #[b Tratamiento general]
+                p.mb-3 No se incluye automáticamente como CIF.
+                p.mb-0 #[b Justificación]
+                p.mb-0 No contribuye directamente a llevar la prenda a su condición productiva.
+              .tarjeta.tarjeta--slyder.b2.p-4.p-lg-3.text-center
+                .caja-img.mb-0
+                  img(src='@/assets/curso/tema1/34.svg')
+                h4.mb-3 Desperdicio anormal
+                p.mb-0 #[b Tratamiento general]
+                p.mb-3 No se distribuye entre las unidades conformes.
+                p.mb-0 #[b Justificación]
+                p.mb-0 Representa una pérdida que excede las condiciones normales del proceso.
+              .tarjeta.tarjeta--slyder.b2.p-4.p-lg-3.text-center
+                .caja-img.mb-0
+                  img(src='@/assets/curso/tema1/35.svg')
+                h4.mb-3 Intereses ordinarios de financiación
+                p.mb-0 #[b Tratamiento general]
+                p.mb-3 No se incluyen automáticamente como CIF.
+                p.mb-0 #[b Justificación]
+                p.mb-0 Su reconocimiento depende del tratamiento financiero aplicable.
+
+    .tit-doble--azul.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
+      h3.mb-0 Asignación de los costos indirectos
+
+    .row.fd1.fon.mb-5(data-aos="fade-down")
+      .col-lg-12
+        .bg1.p-lg-5.p-4.mb-0.text-white
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-5
+              p.mb-4 Debido a que los CIF no se identifican directamente con cada prenda, deben asignarse mediante una base que represente el consumo de recursos. Pueden utilizarse minutos de mano de obra, horas de máquina, unidades procesadas, costo de la mano de obra u otra medida técnicamente relacionada. La selección debe responder a una relación razonable entre el costo acumulado y la actividad que lo origina.
+              p.mb-4 La tasa predeterminada se expresa de forma general así:
+              p.mb-4 #[b Tasa predeterminada de CIF = CIF presupuestados ÷ Nivel normal de la base de asignación]
+              p.mb-4 Si los CIF presupuestados ascienden a $18.000.000 y la capacidad normal corresponde a 60.000 minutos productivos:
+              p.mb-4 #[b $18.000.000 / 60.000 = $300]
+              p.mb-4 Una orden que consume 10.000 minutos recibiría:
+              p.mb-0 #[b 10.000 × 300 = $3.000.000]
+            .col-lg-7.d-none.d-lg-block
+              img(src='@/assets/curso/tema1/36.png')
+
+    .tit-doble--azul.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
+      h3.mb-0 Bases utilizadas para asignar costos indirectos de fabricación
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-12
+        SlyderB.slib(:datos="datosSlyder").bg3.p-lg-5.p-4
+
+    .tit-doble--azul.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
+      h3.mb-0 Capacidad normal y CIF fijos
+    
+    p.mb-4 La asignación de los costos indirectos fijos debe considerar la capacidad normal de las instalaciones. Esta corresponde a la producción esperada en condiciones ordinarias durante varios periodos, descontando las pérdidas de capacidad derivadas del mantenimiento planificado. Una disminución temporal del volumen no justifica elevar indefinidamente el costo fijo asignado a cada prenda.
+
+    p.mb-5 Cuando la producción real es anormalmente baja, la parte de los CIF fijos que no se asigna al inventario se reconoce como gasto del periodo. En condiciones de producción anormalmente alta, la tasa debe reducirse para impedir que los inventarios sean valorados por encima de su costo. Los costos indirectos variables, por su parte, se asignan con base en el uso real de las instalaciones productivas (IFRS Foundation, 2025).
+
+    .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-right")
+      h4.mb-3 Criterio de asignación
+      p.mb-0 La distribución de los CIF no debe utilizarse para trasladar automáticamente a las prendas el costo de la capacidad ociosa anormal. La base seleccionada debe representar el consumo de recursos, conservar trazabilidad y aplicarse de manera uniforme entre órdenes comparables.
+
+    .tit-doble--azul.mb-5(data-aos="fade-right")
+      img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
+      h3.mb-0 Integración de la estructura del costo
+    
+    p.mb-4 Después de valorar materiales, mano de obra y costos indirectos, los tres elementos se consolidan en una hoja de costos. Este documento debe conservar la identificación de la referencia, versión técnica, cantidad, unidad monetaria, periodo, fuentes de información y criterios empleados. La ausencia de estos datos impide establecer si dos costos corresponden a las mismas condiciones productivas.
+
+    p.mb-4 El siguiente ejemplo corresponde a una orden hipotética de 500 prendas conformes.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .titulo-sexto.mb-4
+          h5 Tabla 3.
+          | Ejemplo de consolidación del costo de producción de una orden
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-6
+            .tabla-a.tab3.mb-0
+              table
+                thead
+                  tr
+                    th Elemento
+                    th Costo de la orden
+                    th Costo por prenda
+                tbody
+                  tr
+                    td Materiales directos
+                    td $10.250.000
+                    td $20.500
+                  tr
+                    td Mano de obra directa
+                    td $3.200.000
+                    td $6.400
+                  tr
+                    td Costos indirectos de fabricación aplicados
+                    td $2.400.000
+                    td $6.400
+                  tr
+                    td Costo total de producción
+                    td $10.250.000
+                    td $20.500
+          .col-lg-6
+            img(src='@/assets/curso/tema1/42.png')
+        
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-5.d-none.d-lg-block
+        img(src='@/assets/curso/tema1/43.png')
+      .col-lg-7
+        .row.justify-content-center.mb-4
+          .col-lg-2
+            img.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/44.svg')
+          .col-lg-10.ps-lg-0
+            p.mb-4 El costo unitario del ejemplo se determina así:
+            p.mb-4 #[b Costo unitario = Costo total de producción ÷ Cantidad de prendas conformes]
+            p.mb-0 #[b $15.850.000 ÷ 500 = $31.700 por prenda]
+        p.mb-0 Este valor representa el costo de fabricación bajo las condiciones definidas. No equivale al precio de venta ni incorpora automáticamente gastos comerciales, administración general, financiación, impuestos sobre la venta o utilidad. También pierde validez si cambia la cantidad, la composición del lote, el consumo de materiales, el tiempo requerido o el nivel de actividad empleado para distribuir los CIF.
+
+    p.mb-0 La estructura del costo debe mantener correspondencia con la orden de producción. Los materiales se sustentan en cantidades y precios verificables; la mano de obra se relaciona con las operaciones y los tiempos reconocidos, y los costos indirectos se distribuyen mediante una base racional. Esta articulación permite establecer un costo técnicamente documentado sin confundir consumo productivo, gasto del periodo y decisión comercial.
+    
 
 </template>
 
@@ -448,7 +723,63 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Minutos de mano de obra',
+        texto: `
+          <b>Aplicación posible</b><br>
+          Puede emplearse en procesos con alta participación de trabajo directo.
+          <br><br>
+          <b>Precaución técnica</b><br>
+          Debe verificarse que el consumo de CIF mantenga relación con los minutos registrados.
+        `,
+        imagen: '@/assets/curso/tema1/37.png',
+      },
+      {
+        titulo: 'Horas de máquina',
+        texto: `
+          <b>Aplicación posible</b><br>
+          Puede aplicarse cuando el uso de equipos explica una parte significativa del costo.
+          <br><br>
+          <b>Precaución técnica</b><br>
+          Requiere registros confiables de utilización por orden o proceso.
+        `,
+        imagen: '@/assets/curso/tema1/38.png',
+      },
+      {
+        titulo: 'Unidades producidas',
+        texto: `
+          <b>Aplicación posible</b><br>
+          Puede utilizarse en lotes homogéneos con consumos indirectos similares.
+          <br><br>
+          <b>Precaución técnica</b><br>
+          Pierde precisión cuando las referencias presentan complejidades diferentes.
+        `,
+        imagen: '@/assets/curso/tema1/39.png',
+      },
+      {
+        titulo: 'Costo de mano de obra directa',
+        texto: `
+          <b>Aplicación posible</b><br>
+          Puede emplearse como base monetaria en determinados sistemas.
+          <br><br>
+          <b>Precaución técnica</b><br>
+          Debe comprobarse que los CIF varíen de manera coherente con esta base.
+        `,
+        imagen: '@/assets/curso/tema1/40.png',
+      },
+      {
+        titulo: 'Base combinada',
+        texto: `
+          <b>Aplicación posible</b><br>
+          Puede integrar diferentes inductores para grupos de costos distintos.
+          <br><br>
+          <b>Precaución técnica</b><br>
+          Exige separar previamente los costos según la actividad que los origina.
+        `,
+        imagen: '@/assets/curso/tema1/41.png',
+      },
+    ],
   }),
 }
 </script>
