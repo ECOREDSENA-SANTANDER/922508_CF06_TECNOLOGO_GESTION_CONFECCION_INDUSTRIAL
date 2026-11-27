@@ -22,7 +22,7 @@
     .cajon.color-acento-b.p-4.mb-5(data-aos="fade-right")
       p.mb-0 La proyección final articula la capacidad operativa, los recursos productivos, las bases de distribución y el tiempo requerido para fabricar las prendas. A partir de esta información se calculan el valor minuto de planta, el valor minuto de mano de obra y el costo estimado de la orden de producción. Los resultados obtenidos permiten documentar los supuestos del cálculo, comparar alternativas productivas y establecer una referencia económica para el seguimiento de la ejecución.
       
-    .row.justify-content-center.align-items-center(data-aos="fade-right")          
+    .row.justify-content-center.align-items-center(data-aos="fade-left")          
       .col-lg-12
         figure
           .video

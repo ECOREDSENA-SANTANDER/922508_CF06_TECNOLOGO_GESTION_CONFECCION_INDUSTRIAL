@@ -19,7 +19,7 @@
             br
             p.mb-0 La estructura básica comprende materiales directos, mano de obra directa y costos indirectos de fabricación. Esta organización permite reconocer qué recursos pueden asociarse de forma técnica y económicamente viable con una referencia, un lote o una orden, y cuáles deben distribuirse mediante criterios de asignación. La contabilidad de costos advierte que una misma erogación puede recibir tratamientos diferentes según su finalidad, trazabilidad y relación con el objeto de costo; por ello, la clasificación debe sustentarse en criterios documentados y aplicarse de manera uniforme (Datar & Rajan, 2021).
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 1.
@@ -45,18 +45,18 @@
                 td Comprenden recursos fabriles necesarios para producir, pero cuya identificación directa con cada unidad no resulta práctica o económicamente viable.
                 td Se asignan mediante una base técnica, racional y aplicada de forma consistente.
     
-    p.mb-5 La relación general se expresa de la siguiente manera:
+    p.mb-5(data-aos="fade-right") La relación general se expresa de la siguiente manera:
 
-    .cajon.color-acento-b.p-4.mb-5(data-aos="fade-right")
+    .cajon.color-acento-b.p-4.mb-5(data-aos="fade-left")
       p.mb-0.text-center #[b Costo de producción = Materiales directos + Mano de obra directa + Costos indirectos de fabricación]
 
-    p.mb-5 Esta fórmula no incluye automáticamente gastos administrativos, costos financieros, gastos de comercialización ni margen de utilidad. Tales conceptos pueden intervenir en la determinación del precio o en el análisis integral de la organización, pero no forman parte del costo de fabricación cuando no contribuyen a llevar el inventario a su ubicación y condición actuales. La NIC 2 establece que el costo de los inventarios comprende los costos de adquisición, los costos de transformación y otros desembolsos necesarios para alcanzar dichas condiciones (IFRS Foundation, 2025).
+    p.mb-5(data-aos="fade-right") Esta fórmula no incluye automáticamente gastos administrativos, costos financieros, gastos de comercialización ni margen de utilidad. Tales conceptos pueden intervenir en la determinación del precio o en el análisis integral de la organización, pero no forman parte del costo de fabricación cuando no contribuyen a llevar el inventario a su ubicación y condición actuales. La NIC 2 establece que el costo de los inventarios comprende los costos de adquisición, los costos de transformación y otros desembolsos necesarios para alcanzar dichas condiciones (IFRS Foundation, 2025).
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Diferencias entre costo de producción, gasto y precio de venta
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/2.png')
       .col-lg-9
@@ -80,11 +80,11 @@
                 p.mb-4 #[b Finalidad:] Define el valor comercial solicitado por el producto.
                 p.mb-0 #[b Ejemplo aplicado:] Integra criterios de costo, margen, mercado, negociación e impuestos aplicables.
 
-    p.mb-4 También pueden construirse dos agrupaciones auxiliares. El costo primo reúne los materiales directos y la mano de obra directa; el costo de conversión integra la mano de obra directa y los costos indirectos de fabricación. Estas expresiones responden a propósitos distintos y no deben sumarse entre sí, porque la mano de obra directa se encuentra incluida en ambas.
+    p.mb-4(data-aos="fade-left") También pueden construirse dos agrupaciones auxiliares. El costo primo reúne los materiales directos y la mano de obra directa; el costo de conversión integra la mano de obra directa y los costos indirectos de fabricación. Estas expresiones responden a propósitos distintos y no deben sumarse entre sí, porque la mano de obra directa se encuentra incluida en ambas.
 
-    p.mb-4 #[b Costo primo = Materiales directos + Mano de obra directa]
+    p.mb-4(data-aos="fade-right") #[b Costo primo = Materiales directos + Mano de obra directa]
 
-    p.mb-5 #[b Costo de conversión = Mano de obra directa + Costos indirectos de fabricación]
+    p.mb-5(data-aos="fade-left") #[b Costo de conversión = Mano de obra directa + Costos indirectos de fabricación]
 
     .cajon.color-acento-contenido.p-4.mb-0(data-aos="fade-right")
       h4.mb-3 Precisión de cálculo
@@ -95,7 +95,7 @@
     #t_1_1.titulo-segundo.mb-5
       h2 1.1 Materiales
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/3.png')
       .col-lg-7
@@ -106,13 +106,13 @@
             p.mb-0 Los materiales constituyen los recursos físicos empleados en la fabricación de la prenda. Su tratamiento dentro del costo depende de la relación que mantengan con el producto y de la posibilidad de medir su consumo. Un material se considera directo cuando puede identificarse y valorarse respecto de una referencia, unidad, lote u orden sin incurrir en procedimientos desproporcionados.
         p.mb-0 En confección, el tejido principal suele representar una partida significativa, pero no es el único material directo. Forros, entretelas, hilos, cierres, botones, broches, cintas, elásticos, etiquetas, marquillas y empaques pueden formar parte de esta categoría cuando su cantidad y valor se encuentran definidos en la ficha técnica o en la lista de materiales. La estructura cambia según el producto: una camiseta básica puede tener pocos elementos, mientras que una chaqueta estructurada requiere materiales principales, complementarios y accesorios con características técnicas diferentes (Singh & Nijhar, 2015).
 
-    p.mb-5 La identificación debe partir de documentación vigente. La ficha técnica establece las características del producto; la lista de materiales especifica los componentes requeridos, y la orden de producción determina la cantidad que debe fabricarse. La correspondencia entre estos documentos reduce omisiones, duplicidades y valoraciones realizadas con referencias de materiales incorrectas.
+    p.mb-5(data-aos="fade-right") La identificación debe partir de documentación vigente. La ficha técnica establece las características del producto; la lista de materiales especifica los componentes requeridos, y la orden de producción determina la cantidad que debe fabricarse. La correspondencia entre estos documentos reduce omisiones, duplicidades y valoraciones realizadas con referencias de materiales incorrectas.
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Clasificación operativa de los materiales de confección
 
-    .row.justify-content-center.mb-lg-5.mb-md-5(data-aos="fade-left")
+    .row.justify-content-center.mb-lg-5.mb-4(data-aos="fade-right")
       .col-md-6.col-lg-4.mb-lg-0.mb-md-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/5.svg' alt='')
@@ -138,7 +138,7 @@
               p.mb-4 #[b Ejemplos:] Incluye hilo, cierres, botones, broches, elásticos, cintas y remaches.
               p.mb-4 #[b Tratamiento en el costo:] se asigna directamente cuando su consumo puede medirse por unidad u orden.
 
-    .row.justify-content-center.mb-lg-5.mb-md-5(data-aos="fade-left")
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-md-6.col-lg-4.mb-lg-0.mb-md-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/8.svg' alt='')
@@ -168,20 +168,20 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Consumo y valoración de materiales
 
-    p.mb-4 La determinación del costo requiere diferenciar la cantidad física del valor monetario. El consumo expresa cuántos metros, kilogramos, unidades o pares necesita la prenda; la valoración convierte esa cantidad en dinero mediante el costo unitario correspondiente. Mezclar ambas dimensiones conduce a errores, especialmente cuando existen cambios de proveedor, variaciones en el ancho del tejido, descuentos comerciales o unidades de compra distintas.
+    p.mb-4(data-aos="fade-left") La determinación del costo requiere diferenciar la cantidad física del valor monetario. El consumo expresa cuántos metros, kilogramos, unidades o pares necesita la prenda; la valoración convierte esa cantidad en dinero mediante el costo unitario correspondiente. Mezclar ambas dimensiones conduce a errores, especialmente cuando existen cambios de proveedor, variaciones en el ancho del tejido, descuentos comerciales o unidades de compra distintas.
 
-    p.mb-4 La relación básica es:
+    p.mb-4(data-aos="fade-right") La relación básica es:
 
-    p.mb-4 #[b Costo del material = Consumo por unidad × Costo por unidad de medida]
+    p.mb-4(data-aos="fade-left") #[b Costo del material = Consumo por unidad × Costo por unidad de medida]
 
-    p.mb-4 Si una referencia requiere 1,65 metros de tejido y el costo aprobado es de $18.000 por metro, el valor del tejido por prenda será:
+    p.mb-4(data-aos="fade-right") Si una referencia requiere 1,65 metros de tejido y el costo aprobado es de $18.000 por metro, el valor del tejido por prenda será:
 
-    p.mb-5 #[b 1,65 × $18.000/m = $29.700]
+    p.mb-5(data-aos="fade-left") #[b 1,65 × $18.000/m = $29.700]
 
     .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-right")
       p.mb-0 El resultado corresponde únicamente al tejido principal. Los demás materiales deben valorarse por separado y después consolidarse. El International Trade Centre señala que el costo del tejido parte de la relación entre consumo y precio por unidad de medida; sin embargo, el cálculo debe conservar correspondencia entre ancho, calidad, moneda y condiciones de compra (International Trade Centre, 2022).
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Consumo neto y consumo requerido
     
@@ -204,15 +204,15 @@
       h4.mb-3 Control del consumo
       p.mb-0 Las pérdidas normales deben sustentarse en condiciones técnicas documentadas. Los errores de corte, deterioros evitables, faltantes, daños por manipulación o desperdicios anormales no deben presentarse como tolerancias ordinarias para incrementar el costo estándar.
     
-    p.mb-5 La NIC 2 excluye del costo de los inventarios las cantidades anormales de desperdicio de materiales, mano de obra u otros costos de producción. Estos valores deben reconocerse según su naturaleza y no distribuirse entre las unidades conformes como si fueran consumos normales (IFRS Foundation, 2025).
+    p.mb-5(data-aos="fade-left") La NIC 2 excluye del costo de los inventarios las cantidades anormales de desperdicio de materiales, mano de obra u otros costos de producción. Estos valores deben reconocerse según su naturaleza y no distribuirse entre las unidades conformes como si fueran consumos normales (IFRS Foundation, 2025).
 
     .tit-doble--azul.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Costo de adquisición
 
-    p.mb-4 El valor del material no siempre coincide con el precio indicado en la factura. El costo de adquisición puede incluir el precio de compra, aranceles, impuestos no recuperables, transporte, manipulación y otros desembolsos directamente atribuibles a la adquisición. Los descuentos comerciales, rebajas y conceptos equivalentes disminuyen el costo reconocido (IFRS Foundation, 2025).
+    p.mb-4(data-aos="fade-left") El valor del material no siempre coincide con el precio indicado en la factura. El costo de adquisición puede incluir el precio de compra, aranceles, impuestos no recuperables, transporte, manipulación y otros desembolsos directamente atribuibles a la adquisición. Los descuentos comerciales, rebajas y conceptos equivalentes disminuyen el costo reconocido (IFRS Foundation, 2025).
 
-    p.mb-5 #[b Costo de adquisición = Precio de compra + Costos directamente atribuibles − Descuentos y rebajas]
+    p.mb-5(data-aos="fade-right") #[b Costo de adquisición = Precio de compra + Costos directamente atribuibles − Descuentos y rebajas]
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
@@ -254,11 +254,11 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Consolidación del costo de materiales
 
-    p.mb-4 La hoja de costos debe registrar cada componente con una unidad compatible. Cuando un insumo se compra por rollo, cono, caja o paquete, es necesario convertir el precio de compra a la unidad empleada para calcular el consumo. No resulta técnicamente válido multiplicar el consumo expresado en metros por un precio registrado por kilogramo sin disponer de un factor de conversión comprobado.
+    p.mb-4(data-aos="fade-left") La hoja de costos debe registrar cada componente con una unidad compatible. Cuando un insumo se compra por rollo, cono, caja o paquete, es necesario convertir el precio de compra a la unidad empleada para calcular el consumo. No resulta técnicamente válido multiplicar el consumo expresado en metros por un precio registrado por kilogramo sin disponer de un factor de conversión comprobado.
 
-    p.mb-5 Los valores del siguiente ejemplo son hipotéticos y se utilizan únicamente para mostrar el procedimiento de cálculo.
+    p.mb-5(data-aos="fade-right") Los valores del siguiente ejemplo son hipotéticos y se utilizan únicamente para mostrar el procedimiento de cálculo.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 2.
@@ -314,17 +314,17 @@
                     td No aplica
                     td No aplica
                     td $38.010
-          .col-lg-4
+          .col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/tema1/13.png')
         
-    p.mb-0 El valor obtenido debe multiplicarse por la cantidad de unidades de la orden, considerando la distribución de tallas o variantes cuando estas modifican el consumo. Utilizar un único promedio sin comprobar la composición del lote puede subestimar o sobrestimar el requerimiento. Si el consumo cambia por talla, color o presentación, la valoración debe mantener esa diferenciación.
+    p.mb-0(data-aos="fade-right") El valor obtenido debe multiplicarse por la cantidad de unidades de la orden, considerando la distribución de tallas o variantes cuando estas modifican el consumo. Utilizar un único promedio sin comprobar la composición del lote puede subestimar o sobrestimar el requerimiento. Si el consumo cambia por talla, color o presentación, la valoración debe mantener esa diferenciación.
 
 
     separador
     #t_1_2.titulo-segundo.mb-5
       h2 1.2 Mano de obra
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/14.png')
       .col-lg-7
@@ -378,9 +378,9 @@
                   .col-lg-6.col-md-8
                     img.mb-0(src="@/assets/curso/tema1/17.png")
 
-    p.mb-5 Una actividad no debe clasificarse de forma automática por el nombre del cargo. El trabajo de inspección, por ejemplo, puede tratarse como directo cuando se registra específicamente para una orden y forma parte del proceso requerido; también puede acumularse como indirecto cuando el personal de calidad atiende simultáneamente diferentes líneas y referencias. La política de costos debe establecer el criterio y mantenerlo durante los periodos comparados.
+    p.mb-5(data-aos="fade-right") Una actividad no debe clasificarse de forma automática por el nombre del cargo. El trabajo de inspección, por ejemplo, puede tratarse como directo cuando se registra específicamente para una orden y forma parte del proceso requerido; también puede acumularse como indirecto cuando el personal de calidad atiende simultáneamente diferentes líneas y referencias. La política de costos debe establecer el criterio y mantenerlo durante los periodos comparados.
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Base técnica del costo de mano de obra
 
@@ -405,13 +405,13 @@
       h4.mb-3 Distinción necesaria
       p.mb-0 El SAM expresa contenido de trabajo en minutos; no constituye por sí mismo un valor monetario. Para convertirlo en costo debe multiplicarse por una tarifa o costo por minuto calculado con criterios laborales, contables y operativos definidos.
 
-    p.mb-5 El costo reconocido por minuto debe integrar los conceptos establecidos en la política de la organización. Los salarios, prestaciones, aportes y demás obligaciones laborales constituyen la base para establecer el costo de la fuerza de trabajo, pero su cálculo normativo debe mantenerse diferenciado de la asignación del costo a la orden. Una vez consolidado el valor laboral aplicable, la hoja de costos utiliza la tarifa aprobada sin alterar sus componentes.
+    p.mb-5(data-aos="fade-left") El costo reconocido por minuto debe integrar los conceptos establecidos en la política de la organización. Los salarios, prestaciones, aportes y demás obligaciones laborales constituyen la base para establecer el costo de la fuerza de trabajo, pero su cálculo normativo debe mantenerse diferenciado de la asignación del costo a la orden. Una vez consolidado el valor laboral aplicable, la hoja de costos utiliza la tarifa aprobada sin alterar sus componentes.
 
     .tit-doble--azul.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Tiempo productivo y novedades
     
-    p.mb-5 No todo el tiempo pagado se convierte automáticamente en mano de obra directa. Durante una jornada pueden presentarse preparación, espera, capacitación, mantenimiento, interrupciones, reprocesos o inactividad. Cada condición requiere una clasificación definida para evitar que el costo de una orden absorba tiempos que no le corresponden.
+    p.mb-5(data-aos="fade-left") No todo el tiempo pagado se convierte automáticamente en mano de obra directa. Durante una jornada pueden presentarse preparación, espera, capacitación, mantenimiento, interrupciones, reprocesos o inactividad. Cada condición requiere una clasificación definida para evitar que el costo de una orden absorba tiempos que no le corresponden.
 
     .tit-doble--azul.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
@@ -475,7 +475,7 @@
                 p.mb-0 #[b Verificación requerida] 
                 p.mb-0 Debe reconocerse separadamente e investigarse su causa.
 
-    p.mb-0 La utilización de tiempos reales permite conocer el consumo efectivo de mano de obra, mientras que los tiempos estándar proporcionan una referencia para presupuestar y evaluar desviaciones. Ambos valores responden a finalidades diferentes. Sustituir el estándar por el tiempo real sin identificar el propósito del cálculo puede trasladar ineficiencias, esperas o errores a la estimación del costo unitario.
+    p.mb-0(data-aos="fade-left") La utilización de tiempos reales permite conocer el consumo efectivo de mano de obra, mientras que los tiempos estándar proporcionan una referencia para presupuestar y evaluar desviaciones. Ambos valores responden a finalidades diferentes. Sustituir el estándar por el tiempo real sin identificar el propósito del cálculo puede trasladar ineficiencias, esperas o errores a la estimación del costo unitario.
 
 
     separador 
@@ -490,13 +490,13 @@
           p.mb-4.mx-lg-2 Los costos indirectos de fabricación, identificados también mediante la sigla CIF, reúnen los recursos necesarios para operar la planta que no pueden asignarse directamente a una prenda, referencia u orden de manera práctica y económicamente justificable. Aunque no se observen como un componente físico predominante, permiten que la transformación se desarrolle en condiciones operativas.
           p.mb-0.mx-lg-2 Su reconocimiento exige comprobar que guardan relación con la producción. Incorporar partidas comerciales o administrativas sin vínculo con la transformación distorsiona el costo fabril y dificulta comparar las órdenes.
     
-    p.mb-5 La NIC 2 incluye dentro de los costos de conversión una asignación sistemática de los costos indirectos fijos y variables incurridos para transformar los materiales en productos terminados. Los costos indirectos fijos permanecen relativamente constantes frente a cambios del volumen dentro de determinado intervalo, mientras que los variables cambian de manera directa o cercana con el nivel de actividad (IFRS Foundation, 2025).
+    p.mb-5(data-aos="fade-left") La NIC 2 incluye dentro de los costos de conversión una asignación sistemática de los costos indirectos fijos y variables incurridos para transformar los materiales en productos terminados. Los costos indirectos fijos permanecen relativamente constantes frente a cambios del volumen dentro de determinado intervalo, mientras que los variables cambian de manera directa o cercana con el nivel de actividad (IFRS Foundation, 2025).
 
     .tit-doble--azul.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Costos indirectos asociados con la fabricación de prendas
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         ImagenInfografica.color-primario.text-white
           template(v-slot:imagen)
@@ -542,7 +542,7 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Partidas que no deben confundirse con los CIF
 
-    p.mb-5 No todas las erogaciones de la organización forman parte de los costos indirectos de fabricación. Asimismo, las ineficiencias extraordinarias no deben distribuirse entre las unidades terminadas como si correspondieran al funcionamiento ordinario.
+    p.mb-5(data-aos="fade-left") No todas las erogaciones de la organización forman parte de los costos indirectos de fabricación. Asimismo, las ineficiencias extraordinarias no deben distribuirse entre las unidades terminadas como si correspondieran al funcionamiento ordinario.
 
     .tit-doble--azul.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
@@ -551,7 +551,7 @@
     .row.fd3.fon.mb-5(data-aos="fade-down")
       .col-lg-12
         .row.justify-content-center.align-items-center.mb-0
-          .col-lg-4
+          .col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/tema1/27.png')
           .col-lg-8
             SlyderF(columnas="col-md-6 col-xl-4")
@@ -620,7 +620,7 @@
                 p.mb-0 #[b Justificación]
                 p.mb-0 Su reconocimiento depende del tratamiento financiero aplicable.
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Asignación de los costos indirectos
 
@@ -651,11 +651,11 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Capacidad normal y CIF fijos
     
-    p.mb-4 La asignación de los costos indirectos fijos debe considerar la capacidad normal de las instalaciones. Esta corresponde a la producción esperada en condiciones ordinarias durante varios periodos, descontando las pérdidas de capacidad derivadas del mantenimiento planificado. Una disminución temporal del volumen no justifica elevar indefinidamente el costo fijo asignado a cada prenda.
+    p.mb-4(data-aos="fade-left") La asignación de los costos indirectos fijos debe considerar la capacidad normal de las instalaciones. Esta corresponde a la producción esperada en condiciones ordinarias durante varios periodos, descontando las pérdidas de capacidad derivadas del mantenimiento planificado. Una disminución temporal del volumen no justifica elevar indefinidamente el costo fijo asignado a cada prenda.
 
-    p.mb-5 Cuando la producción real es anormalmente baja, la parte de los CIF fijos que no se asigna al inventario se reconoce como gasto del periodo. En condiciones de producción anormalmente alta, la tasa debe reducirse para impedir que los inventarios sean valorados por encima de su costo. Los costos indirectos variables, por su parte, se asignan con base en el uso real de las instalaciones productivas (IFRS Foundation, 2025).
+    p.mb-5(data-aos="fade-right") Cuando la producción real es anormalmente baja, la parte de los CIF fijos que no se asigna al inventario se reconoce como gasto del periodo. En condiciones de producción anormalmente alta, la tasa debe reducirse para impedir que los inventarios sean valorados por encima de su costo. Los costos indirectos variables, por su parte, se asignan con base en el uso real de las instalaciones productivas (IFRS Foundation, 2025).
 
-    .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-right")
+    .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-left")
       h4.mb-3 Criterio de asignación
       p.mb-0 La distribución de los CIF no debe utilizarse para trasladar automáticamente a las prendas el costo de la capacidad ociosa anormal. La base seleccionada debe representar el consumo de recursos, conservar trazabilidad y aplicarse de manera uniforme entre órdenes comparables.
 
@@ -663,11 +663,11 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Integración de la estructura del costo
     
-    p.mb-4 Después de valorar materiales, mano de obra y costos indirectos, los tres elementos se consolidan en una hoja de costos. Este documento debe conservar la identificación de la referencia, versión técnica, cantidad, unidad monetaria, periodo, fuentes de información y criterios empleados. La ausencia de estos datos impide establecer si dos costos corresponden a las mismas condiciones productivas.
+    p.mb-4(data-aos="fade-left") Después de valorar materiales, mano de obra y costos indirectos, los tres elementos se consolidan en una hoja de costos. Este documento debe conservar la identificación de la referencia, versión técnica, cantidad, unidad monetaria, periodo, fuentes de información y criterios empleados. La ausencia de estos datos impide establecer si dos costos corresponden a las mismas condiciones productivas.
 
-    p.mb-4 El siguiente ejemplo corresponde a una orden hipotética de 500 prendas conformes.
+    p.mb-4(data-aos="fade-right") El siguiente ejemplo corresponde a una orden hipotética de 500 prendas conformes.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 3.
@@ -698,7 +698,7 @@
                     td Costo total de producción
                     td $10.250.000
                     td $20.500
-          .col-lg-6
+          .col-lg-6.d-none.d-lg-block
             img(src='@/assets/curso/tema1/42.png')
         
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -714,7 +714,7 @@
             p.mb-0 #[b $15.850.000 ÷ 500 = $31.700 por prenda]
         p.mb-0 Este valor representa el costo de fabricación bajo las condiciones definidas. No equivale al precio de venta ni incorpora automáticamente gastos comerciales, administración general, financiación, impuestos sobre la venta o utilidad. También pierde validez si cambia la cantidad, la composición del lote, el consumo de materiales, el tiempo requerido o el nivel de actividad empleado para distribuir los CIF.
 
-    p.mb-0 La estructura del costo debe mantener correspondencia con la orden de producción. Los materiales se sustentan en cantidades y precios verificables; la mano de obra se relaciona con las operaciones y los tiempos reconocidos, y los costos indirectos se distribuyen mediante una base racional. Esta articulación permite establecer un costo técnicamente documentado sin confundir consumo productivo, gasto del periodo y decisión comercial.
+    p.mb-0(data-aos="fade-left") La estructura del costo debe mantener correspondencia con la orden de producción. Los materiales se sustentan en cantidades y precios verificables; la mano de obra se relaciona con las operaciones y los tiempos reconocidos, y los costos indirectos se distribuyen mediante una base racional. Esta articulación permite establecer un costo técnicamente documentado sin confundir consumo productivo, gasto del periodo y decisión comercial.
     
 
 </template>

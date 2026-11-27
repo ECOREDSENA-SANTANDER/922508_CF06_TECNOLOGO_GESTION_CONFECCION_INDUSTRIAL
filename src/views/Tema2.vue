@@ -20,7 +20,7 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Criterios de clasificación y localización de costos
 
-    .row.justify-content-center.align-items-stretch.mb-4(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg4.p-4
           h4.mb-4.text-center  Comportamiento
@@ -66,7 +66,7 @@
           p.mb-0 #[b Clasificaciones o resultados]
           p.mb-0 Permite asignar responsables y establecer trazabilidad sobre las variaciones.
 
-    .cajon.color-acento-b.p-4.mb-0(data-aos="fade-right")
+    .cajon.color-acento-b.p-4.mb-0(data-aos="fade-left")
       h4.mb-3 Principio de clasificación
       p.mb-0 La naturaleza del recurso no determina por sí sola su clasificación. Antes de calificar un costo debe definirse el objeto de costo, el periodo de análisis, el nivel de actividad y la viabilidad de su trazabilidad.
 
@@ -100,9 +100,9 @@
             .col-lg-7.d-none.d-lg-block
               img(src='@/assets/curso/tema2/5.png')
 
-    p.mb-5 El costo fijo permanece constante en términos totales durante un periodo y dentro de un intervalo de actividad determinado. Esto no significa que sea inalterable de manera indefinida. Los cánones de arrendamiento pueden actualizarse; la depreciación cambia cuando se incorporan activos, y la supervisión puede requerir personal adicional si la operación supera la capacidad atendida. La condición fija solo se mantiene mientras no cambien las condiciones que sustentan el costo.
+    p.mb-5(data-aos="fade-left") El costo fijo permanece constante en términos totales durante un periodo y dentro de un intervalo de actividad determinado. Esto no significa que sea inalterable de manera indefinida. Los cánones de arrendamiento pueden actualizarse; la depreciación cambia cuando se incorporan activos, y la supervisión puede requerir personal adicional si la operación supera la capacidad atendida. La condición fija solo se mantiene mientras no cambien las condiciones que sustentan el costo.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-9
         .titulo-sexto.mb-4
           h5 Tabla 4.
@@ -152,15 +152,15 @@
                 td Fijo respecto de las unidades de la orden.
                 td El valor contratado puede permanecer constante aunque cambie la cantidad procesada dentro del periodo acordado.
 
-    p.mb-5 La clasificación debe efectuarse dentro de un intervalo relevante, entendido com o el rango de actividad en el que se mantienen las condiciones que explican el comportamiento del costo. Si una línea puede operar con una persona responsable de supervisión hasta determinado número de puestos, el salario conserva un comportamiento fijo dentro de ese rango. Al superar el límite y requerirse una segunda persona, el costo aumenta por escalones.
+    p.mb-5(data-aos="fade-left") La clasificación debe efectuarse dentro de un intervalo relevante, entendido com o el rango de actividad en el que se mantienen las condiciones que explican el comportamiento del costo. Si una línea puede operar con una persona responsable de supervisión hasta determinado número de puestos, el salario conserva un comportamiento fijo dentro de ese rango. Al superar el límite y requerirse una segunda persona, el costo aumenta por escalones.
 
     .tit-doble--azul.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Comportamiento total y unitario
     
-    p.mb-4 La lectura del costo cambia cuando se analiza su valor total o su valor por unidad. 
+    p.mb-4(data-aos="fade-left") La lectura del costo cambia cuando se analiza su valor total o su valor por unidad. 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 5.
@@ -212,9 +212,9 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Ejemplo de comportamiento del costo
 
-    p.mb-4 Considérese una estructura hipotética con costos fijos mensuales de $18.000.000 y un costo variable de $42.000 por prenda.
+    p.mb-4(data-aos="fade-left") Considérese una estructura hipotética con costos fijos mensuales de $18.000.000 y un costo variable de $42.000 por prenda.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 6.
@@ -254,13 +254,13 @@
                 td $15.000
                 td $15.000
 
-    p.mb-5 El costo total aumenta desde $43.200.000 hasta $68.400.000 porque el componente variable crece con la producción. Sin embargo, el costo por prenda disminuye, debido a que los $18.000.000 de costo fijo se distribuyen entre una cantidad mayor de unidades. Esta reducción no implica que el costo variable unitario haya cambiado.
+    p.mb-5(data-aos="fade-left") El costo total aumenta desde $43.200.000 hasta $68.400.000 porque el componente variable crece con la producción. Sin embargo, el costo por prenda disminuye, debido a que los $18.000.000 de costo fijo se distribuyen entre una cantidad mayor de unidades. Esta reducción no implica que el costo variable unitario haya cambiado.
 
     .cajon.color-acento-b.p-4.mb-5(data-aos="fade-right")
       h4.mb-3 Precaución en la interpretación
       p.mb-0 La disminución del costo fijo unitario no garantiza una reducción real del costo total de cada prenda. El análisis debe comprobar que no existan horas suplementarias, desperdicios, reprocesos, compras urgentes, pérdidas de eficiencia o ampliaciones de capacidad que modifiquen la estructura inicial.
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Costos mixtos y escalonados
 
@@ -327,14 +327,14 @@
                 p.mb-4 #[b Clasificación:] costo variable con tarifa diferenciada.
                 p.mb-0 #[b Tratamiento para el análisis:] deben separarse las horas ordinarias y suplementarias según el valor aplicable.
     
-    p.mb-0 La identificación del comportamiento debe basarse en registros históricos, condiciones contractuales y relaciones técnicas, no únicamente en la denominación contable. La energía, por ejemplo, no debe clasificarse siempre como variable: una parte puede permanecer estable, aunque se reduzca la producción. De igual manera, un salario mensual puede comportarse como fijo durante el periodo, aunque corresponda a una actividad necesaria para fabricar las prendas.
+    p.mb-0(data-aos="fade-right") La identificación del comportamiento debe basarse en registros históricos, condiciones contractuales y relaciones técnicas, no únicamente en la denominación contable. La energía, por ejemplo, no debe clasificarse siempre como variable: una parte puede permanecer estable, aunque se reduzca la producción. De igual manera, un salario mensual puede comportarse como fijo durante el periodo, aunque corresponda a una actividad necesaria para fabricar las prendas.
 
 
     separador
     #t_2_2.titulo-segundo.mb-5
       h2 2.2 Costos directos e indirectos
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/14.png')
       .col-lg-7
@@ -349,7 +349,7 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Criterios para determinar la trazabilidad de un costo
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0
           .row.justify-content-center.align-items-center(titulo="Identificación")
@@ -405,7 +405,7 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Clasificación según el objeto de costo
     
-    p.mb-5 Una misma erogación puede ser directa para un centro e indirecta para una orden. El salario de la persona responsable de una línea es identificable directamente con esa línea, pero requiere distribución cuando la línea procesa varias órdenes. La depreciación de una cortadora puede asociarse con el centro de corte; sin embargo, su incorporación al costo de cada referencia exige utilizar un criterio de asignación.
+    p.mb-5(data-aos="fade-left") Una misma erogación puede ser directa para un centro e indirecta para una orden. El salario de la persona responsable de una línea es identificable directamente con esa línea, pero requiere distribución cuando la línea procesa varias órdenes. La depreciación de una cortadora puede asociarse con el centro de corte; sin embargo, su incorporación al costo de cada referencia exige utilizar un criterio de asignación.
 
     .tit-doble--azul.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
@@ -415,22 +415,22 @@
       .col-lg-12
         SlyderB.slib(:datos="datosSlyder2").bg3.p-lg-5.p-4
 
-    p.mb-4 El costo de una orden puede expresarse como la suma de los costos directamente identificados y los costos indirectos asignados:
-    p.mb-4 #[b CO = CD + CIA]
-    p.mb-4 Donde:
-    p.mb-0 #[b • CO] corresponde al costo de la orden.
-    p.mb-0 #[b • CD] representa los costos directos acumulados.
-    p.mb-4 #[b • CIA] indica los costos indirectos asignados.
-    p.mb-4 Esta relación no establece todavía cómo deben distribuirse los costos indirectos. Primero se requiere identificar su origen y acumularlos en el centro correspondiente. 
-    p.mb-5 Posteriormente se selecciona una base que represente de manera razonable el consumo de los recursos.
+    p.mb-4(data-aos="fade-right") El costo de una orden puede expresarse como la suma de los costos directamente identificados y los costos indirectos asignados:
+    p.mb-4(data-aos="fade-right") #[b CO = CD + CIA]
+    p.mb-4(data-aos="fade-right") Donde:
+    p.mb-0(data-aos="fade-right") #[b • CO] corresponde al costo de la orden.
+    p.mb-0(data-aos="fade-right") #[b • CD] representa los costos directos acumulados.
+    p.mb-4(data-aos="fade-right") #[b • CIA] indica los costos indirectos asignados.
+    p.mb-4(data-aos="fade-right") Esta relación no establece todavía cómo deben distribuirse los costos indirectos. Primero se requiere identificar su origen y acumularlos en el centro correspondiente. 
+    p.mb-5(data-aos="fade-right") Posteriormente se selecciona una base que represente de manera razonable el consumo de los recursos.
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Relación entre trazabilidad y comportamiento
     
-    p.mb-5 Las clasificaciones directo–indirecto y fijo–variable corresponden a preguntas diferentes. La primera analiza la posibilidad de asociar el costo con un objeto; la segunda observa su comportamiento ante cambios en la actividad. Por consiguiente, un costo indirecto no es necesariamente fijo y uno directo no tiene que ser variable.
+    p.mb-5(data-aos="fade-right") Las clasificaciones directo–indirecto y fijo–variable corresponden a preguntas diferentes. La primera analiza la posibilidad de asociar el costo con un objeto; la segunda observa su comportamiento ante cambios en la actividad. Por consiguiente, un costo indirecto no es necesariamente fijo y uno directo no tiene que ser variable.
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Matriz de clasificación según trazabilidad y comportamiento
 
@@ -484,20 +484,20 @@
       h4.mb-3 Diferencia esencial
       p.mb-0 “Directo” no significa más importante y “indirecto” no significa prescindible. Estas denominaciones describen la posibilidad de relacionar el costo con un objeto específico. La relevancia operativa o monetaria debe analizarse por separado.
 
-    p.mb-0 La NIC 2 establece que el costo de transformación incluye los costos directamente relacionados con las unidades producidas y una asignación sistemática de los costos indirectos de producción, tanto fijos como variables. Esto exige distinguir la trazabilidad del comportamiento antes de incorporar los recursos al costo de los inventarios (IFRS Foundation, 2025). 
+    p.mb-0(data-aos="fade-left") La NIC 2 establece que el costo de transformación incluye los costos directamente relacionados con las unidades producidas y una asignación sistemática de los costos indirectos de producción, tanto fijos como variables. Esto exige distinguir la trazabilidad del comportamiento antes de incorporar los recursos al costo de los inventarios (IFRS Foundation, 2025). 
 
 
     separador 
     #t_2_3.titulo-segundo.mb-5
       h2 2.3 Centros de costo
 
-    p.mb-5 Esta distinción resulta necesaria porque los costos acumulados en las unidades de apoyo deben trasladarse posteriormente a los centros beneficiados mediante criterios técnicamente sustentados. Los costos de los centros de servicios se asignan a los centros de producción que reciben su apoyo antes de incorporarlos al costo de las órdenes o productos, mediante bases que representen el uso del recurso o el beneficio recibido (Datar & Rajan, 2021).
+    p.mb-5(data-aos="fade-right") Esta distinción resulta necesaria porque los costos acumulados en las unidades de apoyo deben trasladarse posteriormente a los centros beneficiados mediante criterios técnicamente sustentados. Los costos de los centros de servicios se asignan a los centros de producción que reciben su apoyo antes de incorporarlos al costo de las órdenes o productos, mediante bases que representen el uso del recurso o el beneficio recibido (Datar & Rajan, 2021).
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Criterios para definir un centro de costo
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .tarjet.p-lg-5.p-4.mb-0
           SlyderA(tipo="b")(data-aos="zoom-in-left")
@@ -546,15 +546,15 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Centros de producción y de servicios
 
-    p.mb-4 Los centros de producción intervienen directamente en la transformación de materiales o en la ejecución de operaciones requeridas para obtener la prenda. Los centros de servicios respaldan el funcionamiento de los centros productivos, aunque no transforman directamente el producto final.
+    p.mb-4(data-aos="fade-left") Los centros de producción intervienen directamente en la transformación de materiales o en la ejecución de operaciones requeridas para obtener la prenda. Los centros de servicios respaldan el funcionamiento de los centros productivos, aunque no transforman directamente el producto final.
 
-    p.mb-5 Esta distinción resulta necesaria porque los costos acumulados en las unidades de apoyo deben trasladarse posteriormente a los centros beneficiados mediante criterios técnicamente sustentados. La literatura contable reconoce que los centros de servicios atienden a otras unidades y que sus costos deben redistribuirse hacia los centros de producción antes de su incorporación al producto. 
+    p.mb-5(data-aos="fade-right") Esta distinción resulta necesaria porque los costos acumulados en las unidades de apoyo deben trasladarse posteriormente a los centros beneficiados mediante criterios técnicamente sustentados. La literatura contable reconoce que los centros de servicios atienden a otras unidades y que sus costos deben redistribuirse hacia los centros de producción antes de su incorporación al producto. 
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Posible estructura de centros de costo en una planta de confección
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         TabsA.color-acento-botones.mb-0
           .tarjeta.color-a.p-4(titulo="Centros de producción")
@@ -600,15 +600,15 @@
                 p.mb-0 Recursos que puede acumular: promoción, ventas, distribución comercial y atención de clientes.
                 p.mb-0 Relación con la producción: gestiona la colocación del producto y no forma parte del proceso de transformación.
                 
-    p.mb-5 La calidad, el almacén y el soporte técnico pueden clasificarse de manera diferente entre organizaciones. La decisión depende de sus funciones, del lugar que ocupan en la estructura y del tipo de servicios prestados. Lo fundamental es conservar un criterio documentado y evitar que el mismo costo se registre simultáneamente en varios centros.
+    p.mb-5(data-aos="fade-right") La calidad, el almacén y el soporte técnico pueden clasificarse de manera diferente entre organizaciones. La decisión depende de sus funciones, del lugar que ocupan en la estructura y del tipo de servicios prestados. Lo fundamental es conservar un criterio documentado y evitar que el mismo costo se registre simultáneamente en varios centros.
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Diferencia entre centro, objeto y lugar físico
 
-    p.mb-5 El centro de costo no debe confundirse con el objeto final al que se calcula el costo. Una orden de producción puede transitar por varios centros, mientras que un centro atiende diferentes órdenes durante el periodo. Tampoco todo puesto de trabajo necesita convertirse en un centro independiente.
+    p.mb-5(data-aos="fade-right") El centro de costo no debe confundirse con el objeto final al que se calcula el costo. Una orden de producción puede transitar por varios centros, mientras que un centro atiende diferentes órdenes durante el periodo. Tampoco todo puesto de trabajo necesita convertirse en un centro independiente.
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Diferencias entre unidades utilizadas para la acumulación del costo
 
@@ -629,7 +629,7 @@
           p.mb-4 #[b Función:] representa una transformación definida dentro de la secuencia.
           p.mb-0 #[b Ejemplo:] cerrar costados o montar mangas.
 
-    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg4.p-4
           h4.mb-4.text-center Puesto de trabajo
@@ -650,15 +650,15 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Codificación de los centros
 
-    p.mb-0 La codificación permite relacionar requisiciones, reportes de tiempo, facturas, consumos de servicios y registros de mantenimiento con la unidad responsable. Los códigos deben ser únicos, comprensibles y estables.
+    p.mb-0(data-aos="fade-left") La codificación permite relacionar requisiciones, reportes de tiempo, facturas, consumos de servicios y registros de mantenimiento con la unidad responsable. Los códigos deben ser únicos, comprensibles y estables.
     p.mb-4 Una estructura sencilla puede integrar el tipo de centro, el proceso y un consecutivo:
-    p.mb-5 #[b Código del centro = Tipo - Proceso - Consecutivo]
+    p.mb-5(data-aos="fade-left") #[b Código del centro = Tipo - Proceso - Consecutivo]
 
     .tit-doble--azul.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Ejemplo de codificación de centros de costo
 
-    .row.justify-content-center.align-items.mb-5
+    .row.justify-content-center.align-items.mb-5(data-aos="fade-left")
       .col-lg-4.col-md-6.pe-lg-0.mb-lg-0.mb-4
         .h-100.bg5.p-4.p-lg-5
           h3.mb-4.text-center Centros de producción
@@ -683,7 +683,7 @@
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Localización inicial de los costos
 
-    p.mb-5 La localización comienza con el documento que demuestra el consumo. Una requisición puede identificar el centro que recibió un material; el registro de tiempo permite asociar la mano de obra con el área correspondiente; una factura de mantenimiento puede señalar el equipo intervenido, y una medición de energía puede establecer el consumo de una sección. Si el documento carece de código, periodo, responsable u orden relacionada, la trazabilidad se debilita.
+    p.mb-5(data-aos="fade-left") La localización comienza con el documento que demuestra el consumo. Una requisición puede identificar el centro que recibió un material; el registro de tiempo permite asociar la mano de obra con el área correspondiente; una factura de mantenimiento puede señalar el equipo intervenido, y una medición de energía puede establecer el consumo de una sección. Si el documento carece de código, periodo, responsable u orden relacionada, la trazabilidad se debilita.
 
     .tit-doble--azul.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
@@ -693,24 +693,24 @@
       .col-lg-12
         SlyderB.slib(:datos="datosSlyder3").bg3.p-lg-5.p-4
 
-    p.mb-4 El recorrido básico de la información puede resumirse así:
+    p.mb-4(data-aos="fade-right") El recorrido básico de la información puede resumirse así:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Figura 1.
           | Recorrido de la información para la localización de costos
         img(src="@/assets/curso/tema2/48.svg", alt='Diagrama de flujo de cinco etapas: documento de origen, clasificación, centro de costo, orden o referencia y costo unitario.')
 
-    p.mb-5 No todos los costos pasan directamente del centro a la orden. Los recursos acumulados en mantenimiento, almacén o calidad atienden varios centros y requieren una redistribución posterior. En esta etapa se identifica su origen y se comprueba la unidad beneficiada; la selección y aplicación de las bases de distribución exige un análisis específico.
+    p.mb-5(data-aos="fade-right") No todos los costos pasan directamente del centro a la orden. Los recursos acumulados en mantenimiento, almacén o calidad atienden varios centros y requieren una redistribución posterior. En esta etapa se identifica su origen y se comprueba la unidad beneficiada; la selección y aplicación de las bases de distribución exige un análisis específico.
 
-    .tit-doble--azul.mb-5(data-aos="fade-right")
+    .tit-doble--azul.mb-5(data-aos="fade-left")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema1/maquina.svg')", alt="")
       h3.mb-0 Ejemplo de acumulación por centros
 
-    p.mb-4 Supóngase que los registros de un periodo presentan los siguientes valores antes de distribuir los centros de servicios:
+    p.mb-4(data-aos="fade-right") Supóngase que los registros de un periodo presentan los siguientes valores antes de distribuir los centros de servicios:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 7.
@@ -763,12 +763,12 @@
                     td $63.500.000.
                     td $28.950.000.
                     td $101.300.000.
-          .col-lg-4
+          .col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/tema2/49.png')
 
-    p.mb-5 La tabla permite reconocer dónde se registraron los recursos, pero todavía no determina cuánto corresponde a cada orden. Los costos acumulados en mantenimiento y control de calidad deben analizarse según los servicios prestados a los centros productivos. Del mismo modo, los valores de corte, ensamble y acabado deberán relacionarse posteriormente con las órdenes procesadas durante el periodo.
+    p.mb-5(data-aos="fade-right") La tabla permite reconocer dónde se registraron los recursos, pero todavía no determina cuánto corresponde a cada orden. Los costos acumulados en mantenimiento y control de calidad deben analizarse según los servicios prestados a los centros productivos. Del mismo modo, los valores de corte, ensamble y acabado deberán relacionarse posteriormente con las órdenes procesadas durante el periodo.
 
-    .cajon.color-acento-b.p-4.mb-5(data-aos="fade-right")
+    .cajon.color-acento-b.p-4.mb-5(data-aos="fade-left")
       h4.mb-3 Control de trazabilidad
       p.mb-0 Cada valor debe conservar relación con un documento de origen, una fecha, un concepto, un centro y un responsable. Las reclasificaciones posteriores no deben eliminar esa identificación; deben registrar el valor trasladado, el centro de origen, el centro receptor y el criterio utilizado.
 

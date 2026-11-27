@@ -115,8 +115,8 @@ figcaption
       width: 63%
       border-radius: 20px 
 
-
-
+.tarjeta-avatar
+  width: 100% !important
 
 
 
@@ -142,10 +142,6 @@ figcaption
 .bg22
   --alto: 513.85px
 
-
-
-
-
 .bg3
   background: url('../assets/curso/tema1/fd4.png') center / cover no-repeat
   border-radius: 20px
@@ -163,6 +159,7 @@ figcaption
       flex: 0 0 auto
       width: 30%
 
+.bg44,
 .bg4
   background-color: #FFF2C7!important
   border-radius: 20px
@@ -171,7 +168,10 @@ figcaption
     background-color: #FBF7CD !important
     transform: translateY(-5px)
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
-
+.bg44  
+  &:hover
+    background-color: #D0D7DC!important
+    
 .bg5
   background-color: #BBDFEE
   border-radius: 18px 0 0 18px
@@ -186,6 +186,35 @@ figcaption
   .bg6,
   .bg7
     border-radius: 18px
+
+.bg8
+  background-color:#FCF1C7
+  @media (min-width: 992px)
+    min-height: 318.22px
+    margin-left: -52px
+.bg88
+  background-color:#FCF1C7
+  @media (min-width: 992px)
+    min-height: 348.90px
+    margin-left: -52px
+
+.bg9
+  background-color: #55AFD4
+  border-radius: 20px
+  @media (min-width: 992px)
+    min-height: 120px
+  display: flex
+  justify-content: center
+  align-items: center
+  text-align: center
+  p
+    width: 100%
+    margin: 0
+
+
+
+
+
 
 
 
@@ -379,10 +408,25 @@ figcaption
     h3
       color: black 
 
+.tarjeta-audio 
+  border: 3px solid
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: black
+.fst-italic 
+  font-style: normal !important
+.tarjeta.color-secundario i
+  color: #000
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+  color: black
+  font-style: normal !important
+.tarjeta.color-secundario * 
+  color: #000
+.tarjeta.color-primario * 
+    color: black
 
-
-
-
+.tarjeta.color-primario.des
+  background-color: #BBDFEE
+  border-radius: 20px
 
 
 
@@ -447,12 +491,31 @@ figcaption
       width: 42%
     th:nth-child(3)
       width: 42%
-
+  &.tab9
+    td
+      padding: 15.5px 12px
+  &.tab10
+    th:nth-child(1)
+      width: 25%
+    th:nth-child(2)
+      width: 25%
+    th:nth-child(3)
+      width: 25%
+    th:nth-child(4)
+      width: 25%
+    td
+      padding: 12px 12px
+.tabla-a
+  &.tab11
+    --min: 400px !important
+    
 .tabla-a
   &.tab2,
   &.tab3,
   &.tab6,
-  &.tab7
+  &.tab7,
+  &.tab9,
+  &.tab11
     th:not(:first-child),
     td:not(:first-child)
       text-align: center
